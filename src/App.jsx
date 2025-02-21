@@ -53,7 +53,7 @@ export const App = () => {
               className={cn('', {
                 'has-background-success-light': good === selectedGood,
               })}
-              key={goods.indexOf(good)}
+              key={good}
             >
               <td>
                 <button
